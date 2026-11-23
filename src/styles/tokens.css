@@ -1,0 +1,50 @@
+:root {
+  /* Palette */
+  --bg-parchment: #f3ead3;
+  --bg-sand: #e9dec2;
+  --bg-white: #fcfaf4;
+  --bg-charcoal: #16171a;
+  --bg-obsidian: #0f1116;
+
+  --crimson: #c92a2a;
+  --tangerine: #e87a24;
+  --ochre: #e6b422;
+  --space-teal: #0f6a73;
+  --teal-bright: #29a8b3;
+  --noir-navy: #1a233a;
+  --radar-olive: #254b37;
+  --mint: #4ad991;
+
+  --ink: #131315;
+  --ink-soft: #37393f;
+  --ink-muted: #5a5d66;
+  --on-dark: #f4eedc;
+  --on-dark-muted: #c2beae;
+
+  /* Borders & elevation */
+  --border-w: 2px;
+  --border-ink: 2px solid var(--ink);
+  --shadow-sm: 3px 3px 0 var(--ink);
+  --shadow-md: 5px 5px 0 var(--ink);
+  --shadow-lg: 7px 7px 0 var(--ink);
+  --shadow-hover: 8px 8px 0 var(--ink);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  /* Typography */
+  --font-condensed: 'Bebas Neue', 'Anton', Impact, sans-serif;
+  --font-display: 'Anton', Impact, sans-serif;
+  --font-heading: 'Syne', 'Plus Jakarta Sans', sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --font-script: 'Caveat', cursive;
+
+  /* Layout */
+  --container-max: 1320px;
+  --nav-height: 76px;
+}
